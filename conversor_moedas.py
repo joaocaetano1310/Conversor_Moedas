@@ -42,13 +42,12 @@ def conversor():
 
         limpar_tela()
 
-        print("=== CONVERSOR DE MOEDAS ===\n")
+        print("🪙 CONVERSOR DE MOEDAS 🪙\n")
         print(f"Par de moedas: {par}")
         print(f"Valor digitado: {valor}")
         print(f"Cotação atual: {cotacao} {status}")
         print(f"Valor convertido: {round(convertido,2)}")
 
         time.sleep(30)
-
 
 conversor()
